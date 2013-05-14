@@ -8,6 +8,14 @@ Replace the 500 HTTP status message with [`The Bees They're In My Eyes`](https:/
 * Webrick
 * CGI
 
+## Install
+
+Installation is via RubyGems:
+
+```bash
+$ gem install bees
+```
+
 ## Build the hive
 
 ```ruby
