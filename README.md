@@ -19,7 +19,7 @@ $ gem install bees
 ## Build the hive
 
 ```ruby
-require "rack/bees"
+require "bees"
 Rack::Handler::Thin.run lambda { |env| [500, { "Content-Type" => "text/html" }, ["Hello world!"]] }, :Port => 5909
 ```
 
