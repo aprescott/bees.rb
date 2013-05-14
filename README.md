@@ -17,7 +17,7 @@ Rack::Handler::Thin.run lambda { |env| [500, { "Content-Type" => "text/html" }, 
 
 ## Shake the hive
 
-```bash
+```
 $ curl -sI localhost:5909 | head -n 1
 HTTP/1.1 500 The Bees They're In My Eyes
 ```
