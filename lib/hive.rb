@@ -3,7 +3,7 @@ module Bees
 
   # custom error we can detect an inner require failure specifically
   # instead of an outer require failure
-  class HandlerLoadError < NameError; end
+  class HandlerLoadError < LoadError; end
 
   # Attempt to run the HTTP status code override in the given
   # block. If the first try fails, require gem_name (might not
