@@ -61,4 +61,4 @@ Want bees in your favourite web server? [Open an issue or a pull request](https:
 
 # License
 
-Copyright Adam Prescott. Released under the MIT license. Any contributions will be assumed by default to be under the same terms.
+Copyright Adam Prescott. Released under the MIT license.
